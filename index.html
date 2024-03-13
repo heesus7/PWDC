@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi primera web</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/3f04686b64.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    
+    <header id="encabezado">
+        <div class="home"><a href="index.html"><i class="fa-solid fa-house"></i></a></div>
+        <nav class="navbar">
+            <input type="checkbox" id="check" />
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <ul id="menu">
+                <li><a href="#seccion-principal">Inicio</a></li>
+                <li><a href="#seccion-principal">Acerca de mi</a></li>
+                <li><a href="#seccion-principal">Trabajos</a></li>
+                <li><a href="#seccion-principal">Servicios</a></li>
+                <li><a href="#seccion-principal">Contacto</a></li>
+
+            </ul>
+            
+        </nav>
+    </header>
+    <main id="seccion-principal">
+        <section class="seccion-1">
+            <div class="acerca-de">
+                <h2>Acerca de mi</h2>
+                <p class="parrafo1"> Bienvenido a mi página! Aquí, aprenderás más sobre mí.</p>
+                <p class="parrafo2">
+                    Me llamo Tere, nací en Buenos Aires y vivo en Caballito.<br>
+                    Me gusta el helado y salir a pasear en días de sol.<br>
+                    Me encantaría aprender a programar para poder ayudar a las <br>
+                    personas a mostrar lo que hacen.
+                </p>
+
+            </div>
+            <div class="acerca-imagen">
+                <img src="panda.jpg" alt="este es un panda">
+            </div>
+        </section>
+
+        <section class="seccion-2">
+            <img src="choquequirao.jpg" alt="este es un paisaje del Peru">
+        </section>
+        <h1>Trabajos</h1>
+
+        <section class="section-3">
+            <article class="trabajos-3">
+                <img src="panda.jpg">
+                <h2>Titulo1</h2>
+                <p class="text">El caso Periodistas de La Nación contra el Estado (conocido también como caso Parque
+                    Viva)
+                    fue un proceso conocido por la Sala Constitucional de la Corte Suprema de Justicia de Costa
+                    Rica en el cual un grupo de trabajadores del diario La Nación denunció al presidente Rodrigo Chaves
+                    Robles y a la ministra de Salud Joselyn Chacón Madrigal</p>
+            </article>
+            <article class="trabajos-3">
+                <img src="panda.jpg">
+                <h2>Titulo1</h2>
+                <p class="text">El caso Periodistas de La Nación contra el Estado (conocido también como caso Parque
+                    Viva)
+                    fue un proceso conocido por la Sala Constitucional de la Corte Suprema de Justicia de Costa
+                    Rica en el cual un grupo de trabajadores del diario La Nación denunció al presidente Rodrigo Chaves
+                    Robles y a la ministra de Salud Joselyn Chacón Madrigal</p>
+            </article>
+            <article class="trabajos-3">
+                <img src="panda.jpg">
+                <h2>Titulo1</h2>
+                <p class="text">El caso Periodistas de La Nación contra el Estado (conocido también como caso Parque
+                    Viva)
+                    fue un proceso conocido por la Sala Constitucional de la Corte Suprema de Justicia de Costa
+                    Rica en el cual un grupo de trabajadores del diario La Nación denunció al presidente Rodrigo Chaves
+                    Robles y a la ministra de Salud Joselyn Chacón Madrigal</p>
+            </article>
+        </section>
+        <section class="section-4">
+            <h1>Contacto</h1>
+            <p><em>¡Esperamos tu consulta!</em></p>
+
+            <form action="" method="get" class="formulario" id="form">
+                <div class="form-row">
+                <label for="nombre">Nombre</label>
+                <input id="nombre" name="nombre" type="text" />
+                </div>
+                <div class="form-row">
+                <label for="email">Email</label>
+                <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    placeholder="pepe@gmail.com"
+                />
+                </div>
+                <div class="form-row">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje"></textarea>
+                </div>
+        
+                <div class="form-row">
+                <button type="submit" id="submit">Enviar</button>
+                </div>
+                <p class="alertas" id="alertas"></p>
+            </form>
+
+        </section>
+    </main>
+    <footer class="end">
+        <h3>Redes Sociales</h3>
+        <ul>
+            <a href="https://web.facebook.com/?locale=es_LA&_rdc=1&_rdr">
+                <li>Facebook</li>
+            </a>
+            <a href="https://twitter.com/?lang=es">
+                <li>Twitter</li>
+            </a>
+            <li>Instagram</li>
+            <li>Tiktok</li>
+            <li>Email</li>
+
+        </ul>
+    </footer>
+    </div>
+    
+</body>
+
+</html>
