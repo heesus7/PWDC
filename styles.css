@@ -393,3 +393,7 @@ footer h3{
 .form-row button:active {
     background-color: #407fc7;
 }
+.acerca-imagen{
+    width:30px;
+    height:30px;
+}
